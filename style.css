@@ -1,0 +1,36 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: mediumaquamarine;
+    color: #333;
+    text-align: center;
+    height: 900px;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.passo {
+    display: none; 
+}
+
+.passo.ativo {
+    display: block; 
+}
+
+button {
+    background-color: #16791a;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
